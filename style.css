@@ -1,0 +1,153 @@
+* {
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: #5D5D7D;
+}
+
+.container-main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    padding-left: 110px;
+    margin-top: 15%;
+}
+
+.container-right {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 130vh;
+    width: 35%; 
+    position: absolute;
+    right: -50px;
+}
+
+img {
+    position: relative;
+    top: 15%;
+    right: 130px;
+}
+
+h1 {
+    font-size: 78px;
+    line-height: 80px;
+    width: 668px;
+}
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 60%;
+    margin: 15px 0;
+    width: 540px;
+}
+
+button {
+    background-color: #9499EA;
+    width: 269px;
+    height: 62px;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.1);
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a0a4f7;
+}
+
+button:active {
+    background-color: #afb3ff;
+}
+    
+a {
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    margin-right: 31px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+a:hover {
+    opacity: 0.4;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+header {
+    margin: 24px 0 0 42px;
+}
+
+
+@media screen and (max-width: 900px) {
+    
+    .container-left {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+        margin-top: 5px;
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin-top: 58px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 15px;
+        margin-left: 40px;
+        margin-right: 40px;
+        width: auto;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;   
+    }
+
+    button {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+}
