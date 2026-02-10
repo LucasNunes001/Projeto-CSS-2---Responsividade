@@ -60,14 +60,15 @@ button {
     border: none;
     border-radius: 40px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 button:hover {
-    background-color: #a0a4f7;
+    background-color: #b6b9fb;
 }
 
 button:active {
-    background-color: #afb3ff;
+    background-color: #8389f4;
 }
     
 a {
